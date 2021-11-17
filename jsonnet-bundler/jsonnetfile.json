@@ -4,11 +4,11 @@
     {
       "source": {
         "git": {
-          "remote": "https://github.com/prometheus-operator/prometheus-operator",
-          "subdir": "jsonnet/prometheus-operator"
+          "remote": "https://github.com/thanos-io/thanos.git",
+          "subdir": "mixin"
         }
       },
-      "version": "v0.50.0"
+      "version": "v0.22.0"
     }
   ],
   "legacyImports": true
