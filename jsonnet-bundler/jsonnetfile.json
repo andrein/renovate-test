@@ -4,6 +4,15 @@
     {
       "source": {
         "git": {
+          "remote": "https://github.com/prometheus-operator/kube-prometheus.git",
+          "subdir": "jsonnet/kube-prometheus"
+        }
+      },
+      "version": "release-0.9"
+    },
+    {
+      "source": {
+        "git": {
           "remote": "https://github.com/thanos-io/thanos.git",
           "subdir": "mixin"
         }
